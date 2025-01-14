@@ -1,0 +1,1 @@
+This landing page is inspired by my wife. She makes really cool crafts and I thought it would be fun to make a landing page for that. 
