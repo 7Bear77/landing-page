@@ -80,16 +80,41 @@ ul {
 .hero {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px 0 0 30px;
 }
 
 .hero-words {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
-button {
-    width: 300px;
-    height: 60 px;
+.hero-button {
+    justify-self: center;
+    align-self: center;
+}
+
+.hero-button {
+    width: 180px;
+    height: 20px;
+    flex: 1 1 20;
     border-radius: 10px;
+}
+
+.hero-imgs {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+}
+
+.hero.para.img-description {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
 }
