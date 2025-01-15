@@ -118,3 +118,36 @@ ul {
     font-weight: 300;
     text-align: center;
 }
+
+.crafts {
+    display: flex;
+    flex-direction: column;
+}
+
+.projs {
+    display: flex;
+}
+
+.proj-one,
+.proj-two,
+.proj-three,
+.proj-four {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.crafts.head {
+    flex: 1;
+    align-self: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+.img {
+    width: 50px;
+}
