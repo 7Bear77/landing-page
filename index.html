@@ -1,62 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
 </head>
+
 <body>
-    <div class="header">
-    <header>
-            <p class="logo">Crafties!</p>>
-            <ul>
-                <li><a href="#crafts">Crafts!</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header>
-    </div>
     <main>
-        <div class="hero">
-            <h1 class="hero head">Crafts!</h1>
-            <h3 class="hero para">These are some of the cool crafts that my wife has made! I want to show off her work because I think that she is <span class="awesome">awesome!</span></h3>
-            <button type="button"></button>
-            <!-- <img src="" alt=""> -->
-        </div>
-        <div class="crafts" id="crafts">
-            <h2 class="crafts head">Some crafts by my wife!</h2>
-            <div class="proj-one">
-                <!-- <img src="" alt=""> -->
-                <p class="crafts para">This is a cool thing that she made!</p>
+        <div class="biggest-wrapper">
+            <div class="header">
+                <p class="logo">Crafties!</p>
+                <ul>
+                    <li><a href="#crafts">Crafts!</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <div class="proj-two">
-                <!-- <img src="" alt=""> -->
-                <p class="crafts para">This is a cool thing that she made!</p>
+            <div class="hero">
+                <div class="hero-words">
+                    <h1 class="hero head">Crafts and Drawings!</h1>
+                    <h3 class="hero para">
+                        These are some of the cool drawings and awesome crafts that my
+                        wife has made! I want to show off her work because I think that
+                        she is awesome!
+                    </h3>
+                    <button type="button">Email me!</button>
+                </div>
+                <div class="hero-imgs">
+                    <img src="style/pics/mander.jpg" alt="A drawing of charmander and stitch hanging out"
+                        width="100px" />
+                    <p class="hero para img-description">
+                        This is a drawing that my wife did of Charmander and Stitch!
+                    </p>
+                </div>
             </div>
-            <div class="proj-three">
-                <!-- <img src="" alt=""> -->
-                <p class="crafts para">This is a cool thing that she made!</p>
+            <div class="crafts" id="crafts">
+                <h2 class="crafts head">Some crafts by my wife!</h2>
+                <div class="proj-one">
+                    <img src="style/pics/big-house2.jpg" alt="" />
+                    <p class="crafts para">This is a cool thing that she made!</p>
+                </div>
+                <div class="proj-two">
+                    <!-- <img src="" alt=""> -->
+                    <p class="crafts para">This is a cool thing that she made!</p>
+                </div>
+                <div class="proj-three">
+                    <!-- <img src="" alt=""> -->
+                    <p class="crafts para">This is a cool thing that she made!</p>
+                </div>
+                <div class="proj-four">
+                    <!-- <img src="" alt=""> -->
+                    <p class="crafts para">This is a cool thing that she made!</p>
+                </div>
             </div>
-            <div class="proj-four">
-                <!-- <img src="" alt=""> -->
-                <p class="crafts para">This is a cool thing that she made!</p>
+            <div class="testimonial" id="testimonial">
+                <p class="monial">
+                    This is a testimonial about how cool my wife is! Look, I said she's
+                    cool, so she's <span>cool!</span>
+                </p>
             </div>
+            <div class="cta" id="contact">
+                <h4 class="cta head">
+                    Want to tell my wife that you like her crafts?
+                </h4>
+                <p class="cta para">
+                    Email me! Tell me about how cool stuff is, and I'll pass the message
+                    along! She loves compliments.
+                    <span class="who">Who doesn't after all?</span>
+                </p>
+                <button type="button">Email me!</button>
+            </div>
+            <footer class="footer">
+                <p>My wife is so <span class="awesome">awesome!</span>email@me.com</p>
+            </footer>
         </div>
-        <div class="testimonial" id="testimonial">
-            <p class="monial">This is a testimonial about how cool my wife is! Look, I said she's cool, so she's <span>cool!</span></p>
-        </div>
-        <div class="cta" id="contact">
-            <h4>Want to tell my wife that you like her crafts?</h4>
-            <p>Email me! Tell me about how cool stuff is, and I'll pass the message along! She loves compliments. <span class="who">Who doesn't after all?</span></p>
-            <button type="button">Email me</button>
-        </div>
-        <footer class="footer">
-            <p>My wife is so <span class="awesome">awesome!</span>email@me.com</p>
-        </footer>
     </main>
 </body>
+
 </html>
