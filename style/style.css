@@ -41,12 +41,27 @@ button {
 
 .testimonial {
     background-color: #e5e7eb;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .monial {
     font-size: 36px;
     font-weight: 100;
     color: #1f2937;
+    text-align: center;
+    align-self: center;
+}
+
+.monial-wrap {
+    height: 250px;
+    width: 500px;
+    display: flex;
+}
+
+.oprah {
+    font-weight: 800;
 }
 
 ul {
@@ -163,3 +178,4 @@ h4 {
     padding: 8px;
     text-align: center;
 }
+
