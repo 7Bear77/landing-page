@@ -179,3 +179,40 @@ h4 {
     text-align: center;
 }
 
+.bottom-of-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.cta {
+    border-radius: 8px;
+    display: flex;
+}
+
+.cta-words {
+    width: 75vw;
+    padding: 25px;
+    flex: 8;
+}
+
+.cta.para {
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    height: 30px;
+    border-radius: 6px;
+    border-color: white;
+}
+
+.button-wrap {
+    align-self: center;
+    flex: 2;
+}
+
+.who {
+    font-weight: 700;
+    margin-left: 70%;
+}
