@@ -1,0 +1,45 @@
+* {
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero, .footer, .header {
+    background-color: #1f2937;
+}
+
+.hero.head {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero.para, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta, button {
+    background-color: #3882f6;
+}
+
+.crafts.header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.monial {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
