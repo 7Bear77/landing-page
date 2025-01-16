@@ -108,7 +108,7 @@ ul {
     justify-self: center;
     align-self: flex-start;
     margin-left: 30px;
-    width: 180px;
+    width: 250px;
     height: 20px;
     flex: 1 1 20;
     border-radius: 10px;
@@ -215,4 +215,15 @@ h4 {
 .who {
     font-weight: 700;
     margin-left: 70%;
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+    color: #f9faf8;
+
+}
+
+.footing p {
+    padding: 15px;
 }
